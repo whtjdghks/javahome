@@ -12,19 +12,26 @@ public class EnumWeekExample {
 		
 		switch(week) {
 		case 1:
-			today = Week.SUNDAY;break;
+			today = Week.SUNDAY;
+			break; //스위치 문에는 반드시 브레이크 문이 있어야한
 		case 2:
-			today = Week.MONDAY;break;
+			today = Week.MONDAY;
+			break;
 		case 3:
-			today = Week.TUESDAY;break;
+			today = Week.TUESDAY;
+			break;
 		case 4:
-			today = Week.WEDNESDAY;break;
+			today = Week.WEDNESDAY;
+			break;
 		case 5:
-			today = Week.THURSDAY;break;
+			today = Week.THURSDAY;
+			break;
 		case 6:
-			today = Week.FRIDAY;break;
+			today = Week.FRIDAY;
+			break;
 		case 7:
-			today = Week.SATUDAY;break;
+			today = Week.SATUDAY;
+			break;
 		}
 		System.out.println("오늘 요일 :"+ today);
 		
